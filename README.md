@@ -1,4 +1,4 @@
-This repo is for our paper [A Simple Baseline for Zero-shot Semantic Segmentation with Pre-trained Vision-language Model](). It is based on the official repo of [MaskFormer](https://github.com/facebookresearch/MaskFormer).
+This repo is for our paper [A Simple Baseline for Zero-shot Semantic Segmentation with Pre-trained Vision-language Model](https://arxiv.org/pdf/2112.14757.pdf). It is based on the official repo of [MaskFormer](https://github.com/facebookresearch/MaskFormer).
 
 ![](resources/proposal.png)
 ```
