@@ -36,7 +36,7 @@ This repo is for our paper [A Simple Baseline for Zero-shot Semantic Segmentatio
                val2017/   
                #http://images.cocodataset.org/annotations/annotations_trainval2017.zip
                annotations/ 
-               #http://images.cocodataset.org/annotations/stuff_annotations_trainval2017.zip
+               #http://calvin.inf.ed.ac.uk/wp-content/uploads/data/cocostuffdataset/stuffthingmaps_trainval2017.zip
                stuffthingmaps/ 
      ```
   - Format the data to detecttron2 style and split it into Seen (Base) subset and Unseen (Novel) subset.
