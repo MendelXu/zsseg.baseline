@@ -15,7 +15,7 @@ This repo is for our paper [A Simple Baseline for Zero-shot Semantic Segmentatio
      ```bash
      torch==1.8.0
      torchvision==0.9.0
-     detectron2==0.5 #Following https://detectron2.readthedocs.io/en/latest/tutorials/install.html to install it and some required packages
+     detectron2==0.6 #Following https://detectron2.readthedocs.io/en/latest/tutorials/install.html to install it and some required packages
      mmcv==1.3.14
      ```
      FurtherMore, install the modified clip package.
