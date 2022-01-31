@@ -212,7 +212,7 @@ class ModifiedResNet(nn.Module):
         b, c, gh, gw = x.shape
         x = self.attnpool(x, mask, return_cls)
         if not return_cls:
-            return x[1:].permute(1, 0, 2).reshape(b, gh, gw, c)  # N,L,C
+            return x[1:].permute(1, 0, 2).reshape(b, gh, gw, x.shape[-1])  # N,L,C
         return x
 
 
