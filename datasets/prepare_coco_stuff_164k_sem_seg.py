@@ -231,7 +231,7 @@ def main():
     out_mask_dir = osp.join(out_dir, "stuffthingmaps_detectron2")
     for dir_name in [
         "train2017",
-        "test2017",
+        "val2017",
         "train2017_base",
         "train2017_novel",
         "val2017_base",
