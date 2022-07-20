@@ -1,4 +1,4 @@
-_BASE_: ../voc-11k-20/maskformer_R50_bs32_60k.yaml
+_BASE_: ../voc-11k-20/maskformer_R50_bs16_20k.yaml
 ORACLE: True
 MODEL:
   WEIGHTS: ""

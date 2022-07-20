@@ -12,14 +12,11 @@ MODEL:
     # NORM: "SyncBN"
     RES5_MULTI_GRID: [1, 2, 4]
   CLIP_ADAPTER:
-    PROMPT_LEARNER: "learnable"
-    # for learnable prompt
-    PROMPT_DIM: 512
-    PROMPT_SHAPE: (16, 0)
+    PROMPT_LEARNER: "vild"
     CLIP_MODEL_NAME: "ViT-B/16"
     MASK_FILL: "mean"
     MASK_EXPAND_RATIO: 1.0
-    MASK_THR: 0.5
+    MASK_THR: 0.3
     MASK_MATTING: False
     REGION_RESIZED: True
     CLIP_ENSEMBLE: True
