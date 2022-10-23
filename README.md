@@ -118,6 +118,8 @@ This repo is for our ECCV2022 paper [A Simple Baseline for Open Vocabulary Seman
       ```shell
       # TRAINED_MODEL_PATH: the path of your downlaoded model file.
       # train on coco 156 class, test on other dataset
+      # Trained with 
+      # python train_net.py --resume --config-file configs/coco-stuff-164k-156/zero_shot_maskformer_R101c_vild_prompt_bs32_60k.yaml --num-gpus 8 MODEL.CLIP_ADAPTER.CLIP_ENSEMBLE True SOLVER.MAX_ITER 120000
       # DATASET: the name of other datset, can be ade20k-150, ade20k-847, cityscapes-19, pcontext-59-59. Don't test on pascal voc as it overlaps with coco stuff largely.
       python train_net.py --eval-only --resume --config-file configs/${DATASET}/cross_dataset_test_only.yaml --num-gpus 8 MODEL.WEIGHTS ${TRAINED_MODEL_PATH}
        
@@ -127,6 +129,7 @@ This repo is for our ECCV2022 paper [A Simple Baseline for Open Vocabulary Seman
       [Trained Model](https://drive.google.com/file/d/1jDmR4fL5Wm0UyMDd5LhsOl6T2RX2X9R5/view?usp=sharing) 
       ```shell
       # TRAINED_MODEL_PATH: the path of your downloaded model file.
+      # Trained with learned prompts
       python train_net.py --eval-only --config-file configs/coco-stuff-164k-156/zero_shot_maskformer_R101c_bs32_60k.yaml --num-gpus 8 MODEL.WEIGHTST ${TRAINED_MODEL_PATH}
       ```
     
@@ -138,7 +141,7 @@ This repo is for our ECCV2022 paper [A Simple Baseline for Open Vocabulary Seman
 - Other information:
     - COCO Stuff thing and stuff classes split ( copied from https://github.com/nightrome/cocostuff)
         ![](resources/coco_thing_stuff.png)
-    - ADE20k thing and stuff classes split ( follow the same definition in [1], we also provide a [text file](resources/ade20k_150_stuff.txt) containing all stuff classes):
+    - ADE20k thing and stuff classes split ( following the same definition in [1], we also provide a [text file](resources/ade20k_150_stuff.txt) containing all stuff classes):
         ![](resources/ade_thing_stuff.png)
     
 
