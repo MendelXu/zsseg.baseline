@@ -16,7 +16,7 @@ MODEL:
     CLIP_MODEL_NAME: "ViT-B/16"
     MASK_FILL: "mean"
     MASK_EXPAND_RATIO: 1.0
-    MASK_THR: 0.5
+    MASK_THR: 0.4
     MASK_MATTING: False
     REGION_RESIZED: True
     CLIP_ENSEMBLE: True
