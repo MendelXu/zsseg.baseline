@@ -70,10 +70,11 @@ This repo is for our ECCV2022 paper [A Simple Baseline for Open Vocabulary Seman
     ```bash
     datasets/
        VOC2012/
-            #http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar
+            #download http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar and extract it here.
             JPEGImages/
+            # copy `ImageSets/Segmentation/val.txt` here.
             val.txt
-            #http://home.bharathh.info/pubs/codes/SBD/download.html
+            #Download auged annotations from http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/semantic_contours/benchmark.tgz and convert the original mat file to png format. Or download it from https://www.dropbox.com/s/oeu149j8qtbs1x0/SegmentationClassAug.zip?dl=0 (Provided in https://github.com/DrSleep/tensorflow-deeplab-resnet#evaluation).
             SegmentationClassAug/
             #https://gist.githubusercontent.com/sun11/2dbda6b31acc7c6292d14a872d0c90b7/raw/5f5a5270089239ef2f6b65b1cc55208355b5acca/trainaug.txt
             train.txt
@@ -83,7 +84,7 @@ This repo is for our ECCV2022 paper [A Simple Baseline for Open Vocabulary Seman
     ```bash
     python datasets/prepare_voc_sem_seg.py datasets/VOC2012
 
-    python tools/mask_cls_collect.py datasets/VOC2012/annotations_detectron2/train datasets/VOC2012/annotations_detectron2/train_base_label_count.json
+    python tools/mask_cls_collect.py datasets/VOC2012/annotations_detectron2/train_base datasets/VOC2012/annotations_detectron2/train_base_label_count.json
 
     python tools/mask_cls_collect.py datasets/VOC2012/annotations_detectron2/val datasets/VOC2012/annotations_detectron2/val_label_count.json
     ```
