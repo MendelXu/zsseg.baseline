@@ -1,9 +1,15 @@
-:tada:**[News]** Our new work [Side Adapter Network for Open-Vocabulary Semantic Segmentation](https://arxiv.org/abs/2302.12242) was accepted as CVPR2023 hightlight paper. [Code](https://github.com/MendelXu/SAN) has been released.
-----------------------
+# [ECCV2022] A Simple Baseline for Open Vocabulary Semantic Segmentation with Pre-trained Vision-language Model
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/2112-14757/open-vocabulary-semantic-segmentation-on)](https://paperswithcode.com/sota/open-vocabulary-semantic-segmentation-on?p=2112-14757)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/2112-14757/open-vocabulary-semantic-segmentation-on-3)](https://paperswithcode.com/sota/open-vocabulary-semantic-segmentation-on-3?p=2112-14757)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/2112-14757/open-vocabulary-semantic-segmentation-on-1)](https://paperswithcode.com/sota/open-vocabulary-semantic-segmentation-on-1?p=2112-14757)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/2112-14757/open-vocabulary-semantic-segmentation-on-2)](https://paperswithcode.com/sota/open-vocabulary-semantic-segmentation-on-2?p=2112-14757)
 
 This repo is for our ECCV2022 paper [A Simple Baseline for Open Vocabulary Semantic Segmentation with Pre-trained Vision-language Model](https://arxiv.org/pdf/2112.14757.pdf). It is based on the official repo of [MaskFormer](https://github.com/facebookresearch/MaskFormer).
 
-**Hint: The arxiv paper will be updated later. Currently it is still the old version.**
+### :tada:**[News]** Our new work [Side Adapter Network for Open-Vocabulary Semantic Segmentation](https://arxiv.org/abs/2302.12242) was accepted as CVPR2023 hightlight paper. [Code](https://github.com/MendelXu/SAN) has been released.
+
+
 
 ![](resources/proposal.png)
 ```
