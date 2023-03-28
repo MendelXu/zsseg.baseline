@@ -1,3 +1,6 @@
+:tada:**[News]** Our new work [Side Adapter Network for Open-Vocabulary Semantic Segmentation](https://arxiv.org/abs/2302.12242) was accepted as CVPR2023 hightlight paper. [Code](https://github.com/MendelXu/SAN) has been released.
+----------------------
+
 This repo is for our ECCV2022 paper [A Simple Baseline for Open Vocabulary Semantic Segmentation with Pre-trained Vision-language Model](https://arxiv.org/pdf/2112.14757.pdf). It is based on the official repo of [MaskFormer](https://github.com/facebookresearch/MaskFormer).
 
 **Hint: The arxiv paper will be updated later. Currently it is still the old version.**
